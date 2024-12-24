@@ -9,9 +9,10 @@ import ShowroomModel from './ModelComponents/ShowRoomModel'
 import CameraController from './CameraComponents/CameraController'
 import CameraLookAround from './CameraComponents/CameraLookAround'
 import CameraControllerDpad from './CameraComponents/CameraControllerDpad'
+import VirtualDpad from './CameraComponents/VirtualDpad'
 
 
-function PlantScene({onBack}) {
+function PlantScene() {
   const [mobileControls, setMobileControls] = useState({
     forward: false,
     backward: false,
