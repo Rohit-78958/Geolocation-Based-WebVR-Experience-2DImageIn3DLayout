@@ -27,7 +27,7 @@ export default function HumanModel({isMoving}) {
 
   useFrame(() => {
     if (modelRef.current) {
-      const offsetDistance = 1; // Distance in front of the camera
+      const offsetDistance = 0.8; // Distance in front of the camera
       const heightOffset = -0.6; // Height adjustment
 
       // Calculate position in front of the camera
