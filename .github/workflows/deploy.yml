@@ -24,6 +24,7 @@ env:
     NODE_VERSION: ^20.17.0
     GENERIC_LIBRARY: frontend/generic-library
     BASE_URL: ${{ secrets.BASE_URL }}
+    VITE_GOOGLE_MAPS_API_KEY: ${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}
 
 jobs:
     deploy:
