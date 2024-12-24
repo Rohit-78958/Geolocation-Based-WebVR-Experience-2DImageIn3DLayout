@@ -3,7 +3,6 @@ import React, { useRef, useState, useEffect ,Suspense, useCallback } from 'react
 import {useGLTF,useAnimations } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
-import { Perf } from 'r3f-perf'
 
 export default function HumanModel({isMoving}) {
   const { camera } = useThree();
