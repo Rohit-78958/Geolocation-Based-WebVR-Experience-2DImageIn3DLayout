@@ -280,7 +280,6 @@ function PlantScene() {
 
           <ImagePlane position={[-142, 7, -50]} machineName={"ACE-29"}/>
           <mesh position={[-146, 1, -48]} rotation={[0, 0, 0]} receiveShadow>
-            {/* <circleGeometry args={[100, 64]} /> */}
             <cylinderGeometry args={[10, 10, 1, 64]} />
             <meshStandardMaterial color="white"  receiveShadow/>
           </mesh>
